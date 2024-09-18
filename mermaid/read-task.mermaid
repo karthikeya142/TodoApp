@@ -1,0 +1,12 @@
+flowchart LR
+     subgraph Task
+        Model
+    end
+
+    subgraph Read
+        view
+        Template
+        URLPatterns
+    end
+
+    Model-->view --> URLPatterns & Template
